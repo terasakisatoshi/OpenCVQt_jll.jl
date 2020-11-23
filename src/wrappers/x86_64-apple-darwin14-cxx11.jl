@@ -2,7 +2,7 @@
 export libopencv_calib3d, libopencv_core, libopencv_dnn, libopencv_features2d, libopencv_flann, libopencv_gapi, libopencv_highgui, libopencv_imgcodecs, libopencv_imgproc, libopencv_ml, libopencv_objdetect, libopencv_photo, libopencv_stitching, libopencv_video, libopencv_videoio
 
 using Qt_jll
-using GTK3_jll
+using Libglvnd_jll
 ## Global variables
 PATH = ""
 LIBPATH = ""
@@ -233,8 +233,8 @@ function __init__()
     # Initialize PATH and LIBPATH environment variable listings
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
-    foreach(p -> append!(PATH_list, p), (Qt_jll.PATH_list, GTK3_jll.PATH_list,))
-    foreach(p -> append!(LIBPATH_list, p), (Qt_jll.LIBPATH_list, GTK3_jll.LIBPATH_list,))
+    foreach(p -> append!(PATH_list, p), (Qt_jll.PATH_list, Libglvnd_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (Qt_jll.LIBPATH_list, Libglvnd_jll.LIBPATH_list,))
 
     global libopencv_calib3d_path = normpath(joinpath(artifact_dir, libopencv_calib3d_splitpath...))
 
