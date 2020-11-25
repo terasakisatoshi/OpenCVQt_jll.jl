@@ -1,114 +1,134 @@
 [[OpenCVQt]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "09a5c126c6cc5c2d2426c981f9cd2d32ac9e5136"
+git-tree-sha1 = "bf1028d2df992be32500a49699e0e2f2e47aa755"
 libc = "glibc"
 os = "linux"
 
     [[OpenCVQt.download]]
-    sha256 = "40074c5c02543ba9907d0ebc8efa27192936e9a856a9f452965009043b2a0f73"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "998d9911d5eda9962736450d6d3dbc6df405077b9b9b9516f93db16d7879c1b2"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[OpenCVQt]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e3dc80e420e5132dd5c2cddd496bc17cf1145b51"
+git-tree-sha1 = "96bf09dd8b1eb0ff483365464cf0431b2c5380af"
 libc = "glibc"
 os = "linux"
 
     [[OpenCVQt.download]]
-    sha256 = "7646484d4e11a95a6719cdd9c83428097144f2717b7d3affd7a8a8bdf8c98e80"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "232410c003fd154611d558558136f2f7241f2da41853c3df3bd2893af16b1216"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[OpenCVQt]]
 arch = "armv7l"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "7f23ae6d56e32bdc38c690d804ba9503ad9feefe"
+git-tree-sha1 = "f62a2848de9d16e17167470f2db1eb6a43b91d34"
 libc = "glibc"
 os = "linux"
 
     [[OpenCVQt.download]]
-    sha256 = "f1a547b86824c491059dc1f526bf235676cb23c33592aaf8e1b904ccd2a86d6a"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "847f19aa13bdb3e7c2fd5797f2b0ad511b99193edfcfb6f4767d828a40c59312"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[OpenCVQt]]
 arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b9688f13cfa6fa51ccf1cc976da87234a91ef8ed"
+git-tree-sha1 = "a4f762bb3f92c49d35c5f6b65e90f2b169c1d295"
 libc = "glibc"
 os = "linux"
 
     [[OpenCVQt.download]]
-    sha256 = "235e19df44c5d7f970f5f8c031f268ae1eab667be5091d667e2c68ed4e44a5ad"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "5fc84d6d42336377dda17b60b57f78d4c29e3ec7b4ab4f62ecb11e54c2111245"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[OpenCVQt]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "98695f618fd5a239b441885e7bb9dc8f9f451aba"
-os = "windows"
+git-tree-sha1 = "374685a6c03625a6d7c48f7dc42ec73a430b97af"
+libc = "glibc"
+os = "linux"
 
     [[OpenCVQt.download]]
-    sha256 = "a2423d28a848a117221d7c3a11493cd0daeb523bc008a8c9ebee91c119f873f1"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "44db5ad6a5529c0ae5740ae58990f6b8408c4201474adfd1e6a40c316eb3a516"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.i686-linux-gnu-cxx03.tar.gz"
 [[OpenCVQt]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d7dd1b67b053d623472e78e51d01d9f46e00b1a4"
-os = "windows"
-
-    [[OpenCVQt.download]]
-    sha256 = "01ebc7da808a25671645e0fd40ca01b48843354b8f08cb7f181383232c9d6d43"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.i686-w64-mingw32-cxx11.tar.gz"
-[[OpenCVQt]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f7dc72bf0b7c60945bc96bf67daa3553198f1798"
-os = "macos"
-
-    [[OpenCVQt.download]]
-    sha256 = "5857dc5f7b2f73baa610b79e5348bfca2b5689acac03d653930e0893b1a774bd"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.x86_64-apple-darwin14-cxx03.tar.gz"
-[[OpenCVQt]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ce68e5e3e9e36f70b41a1489a85a3ce32af6e7b1"
-os = "macos"
-
-    [[OpenCVQt.download]]
-    sha256 = "b779d75582b2545f6b837f53b5c8776fd9c0ccbdd30074f139a50bb8c523a9be"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.x86_64-apple-darwin14-cxx11.tar.gz"
-[[OpenCVQt]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f3c49e10ef19e2d4047934a1676c994bccc13bc0"
+git-tree-sha1 = "ed5d7a4f2803398cc9a65a2dde483c7d121b93c6"
 libc = "glibc"
 os = "linux"
 
     [[OpenCVQt.download]]
-    sha256 = "ab9c6b3a7205c52b0423d45e9744238debaeea211f32408ec34af1c6c81b6c23"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "cd3f5f79819dd0430558d47e45919bfb96f1349974334cce8108030059f6e70a"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.i686-linux-gnu-cxx11.tar.gz"
+[[OpenCVQt]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0f1bf29c8bec7b759f7a0e1e5bc2429cebe43dff"
+os = "windows"
+
+    [[OpenCVQt.download]]
+    sha256 = "0f390c352a18c7258ebc3cd1a2834b406ecfe495fa6c063bb3042c851fe6c4ed"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.i686-w64-mingw32-cxx03.tar.gz"
+[[OpenCVQt]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "19620febc7cecf624f9d5cb2af3fe88aea707e1a"
+os = "windows"
+
+    [[OpenCVQt.download]]
+    sha256 = "b097662e32d641fcfd97b0e8a60a63d61a257dea8c876b1595c7ae412efce77f"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.i686-w64-mingw32-cxx11.tar.gz"
+[[OpenCVQt]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ff04dffaba8b65880a89fdf698b4823c27aacc18"
+os = "macos"
+
+    [[OpenCVQt.download]]
+    sha256 = "c34fd6b23c4ca42a5a6c28a78e1d10d689f39bbb658f13f6af0f19e10132bba8"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.x86_64-apple-darwin14-cxx03.tar.gz"
 [[OpenCVQt]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "96b86eb24d9501bc8475aeeb7a78b2423048a54f"
+git-tree-sha1 = "d5dd411da042075bdb5ec93b041ce4e2f35c9fce"
+os = "macos"
+
+    [[OpenCVQt.download]]
+    sha256 = "3886ddc5afc7e0ba8a6490f872e2f7fc1ebef61668b009d53ee384c9ded56ac9"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.x86_64-apple-darwin14-cxx11.tar.gz"
+[[OpenCVQt]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b6cf796deed8cc1a445dadfea9b7d0422eaec323"
 libc = "glibc"
 os = "linux"
 
     [[OpenCVQt.download]]
-    sha256 = "c4b79d6e7f15f16f2c1f825a53a2ae1418d7dcebe81e8b7c35b3a883ddcacf87"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[OpenCVQt]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "9a4f281c13120512ed5785ddd89c7bbe1780da71"
-os = "windows"
-
-    [[OpenCVQt.download]]
-    sha256 = "b6aade5a6fb49b3e65f3578e58530a683af7337d47a1e4bb2ef9424e61dd61b5"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "02c0e91538ea59b3a3af992405e7e6e9750e02d6f02702b5481c0c8bb29cc9f7"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[OpenCVQt]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "03d0dd4f58c9e47d5dbdac0474c4ef5e0e4b4c8d"
+git-tree-sha1 = "443e614f348d28723bf9675acad47c645bf21a21"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCVQt.download]]
+    sha256 = "d692d2ba0701883490c2700cb688a1fbeb077488c48297a7657f80fcb0127acc"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[OpenCVQt]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ebd7256e7f1605cb24f784d44e89611a8cfacca4"
 os = "windows"
 
     [[OpenCVQt.download]]
-    sha256 = "27031a62d8d0012656870f8b97414c685431563521572645e3ab5d2d42297e68"
-    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.5.0+0/OpenCVQt.v0.5.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "c96ef2a8cf02ddc0d260456ff01949b93bab04e3217952130673da833727fa17"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.x86_64-w64-mingw32-cxx03.tar.gz"
+[[OpenCVQt]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e9b97474a5f77e31435459703703cd23bb2a6e84"
+os = "windows"
+
+    [[OpenCVQt.download]]
+    sha256 = "a43226756c01faaf122b9590f4fc9b7782d6fd823fb1f53896903931e09abbe0"
+    url = "https://github.com/terasakisatoshi/OpenCVQt_jll.jl/releases/download/OpenCVQt-v0.6.0+0/OpenCVQt.v0.6.0.x86_64-w64-mingw32-cxx11.tar.gz"
